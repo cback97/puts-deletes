@@ -38,7 +38,12 @@ router.post('/',  (req, res) => {
 // Updates a book to show that it has been read
 // Request must include a parameter indicating what book to update - the id
 // Request body must include the content to update - the status
+router.put('/books/isRead/:id',(req,res) => {
 
+  let Id = req.params.id;
+
+  let queryText =``
+})
 
 // TODO - DELETE 
 // Removes a book to show that it has been read
